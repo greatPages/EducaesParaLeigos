@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-x: hidden;
+  padding: 0 20px;
+}
+
+.atention {
+  width: 100%;
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.advice {
+  margin-bottom: 20px;
+  color: rgb(162, 162, 162);
+  font-weight: thin;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.bonus {
+  margin-bottom: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bonus p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+  color: darkblue;
+}
+
+.bonus ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bonus ul li {
+  margin-bottom: 10px;
+}
+
+.today {
+  font-size: 30px;
+  font-weight: 600;
+  color: red;
+}
+
+.price {
+  font-size: 70px;
+  font-weight: 600;
+  color: green;
+  margin-bottom: 30px;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+
+  width: 100%;
+  max-width: 200px;
+}
+
+.security {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px 0 20px;
+}
